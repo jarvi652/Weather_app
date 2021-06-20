@@ -27,122 +27,21 @@
                   <span class="iconify icon" data-icon="flat-ui:weather" data-inline="false"></span>
                 </a>
             </div>
-            <form class="d-flex"  onclick="Seeme()">
-              <input class="form-control me-2 in" type="search" placeholder="Enter a City" aria-label="Search" >
+            <form class="d-flex forms">
+              <input class="form-control me-2" type="search" placeholder="Enter a City" aria-label="Search" >
               <button class="btn btn-outline-light" type="submit">Search</button>
+              <span class="msg"></span>
             </form>
           </div>
         </div>
       </nav>
       <!--MAIN PAGE-->
-      <section class="main">
-        <div class="container-fluid first">
-          <div class="row ">
-            <div class="col-6 col-md-4 card">
-              <h2 class="Location">Kampala</h2>
-              <h4 class="weather">Rain</h4>
-              <h1 class="display-1 ml-3">14°</h1>
-              <div class="d-flex">
-                <p class="mx-1">H:17°</p>
-                <p class="mx-1">L:11°</p>
-              </div>
-            </div>
-            <div class="col-md-6 d-flex flex-row">
-              <div class="d-flex flex-column col-2 align-items-center px-4 ">
-                <h4>Now</h4>
-                <h6>100</h6>
-                <span class="iconify icon" data-icon="flat-ui:weather" data-inline="false"></span>
-                <p>14</p>
-              </div>
-              <div class="d-flex flex-column col-2 align-items-center px-4">
-                <h4>18</h4>
-                <h6>100</h6>
-                <span class="iconify icon" data-icon="flat-ui:weather" data-inline="false"></span>
-                <p>14</p>
-              </div>
-              <div class="d-flex flex-column col-2 align-items-center px-4">
-                <h4>19</h4>
-                <h6>100</h6>
-                <span class="iconify icon" data-icon="flat-ui:weather" data-inline="false"></span>
-                <p>14</p>
-              </div>
-              <div class="d-flex flex-column col-2 align-items-center px-4">
-                <h4>20</h4>
-                <h6>100</h6>
-                <span class="iconify icon" data-icon="flat-ui:weather" data-inline="false"></span>
-                <p>14</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container1">
-          <div class="row">
-            <div class="col-4">
-              <h5 class="tag">DAY</h5>
-              <div class="d-flex flex-column ">
-                <p>Saturday</p>
-                <p>Sunday</p>
-                <p>Monday</p>
-                <p>Tuesday</p>
-                <p>Wednesday</p>
-                <p>Thursday</p>
-                <p>Friday</p>
-              </div>
-            </div>
-            <div class="col-4">
-              <h5 class="tag">FORECAST</h5>
-              <div class="d-flex flex-column align-items-center">
-                <p>Rainy</p>
-                <p>Sunny</p>
-                <p>Rainy</p>
-                <p>Cloudy</p>
-                <p>Rainy</p>
-                <p>Rainy</p>
-                <p>Cloudy</p>
-              </div>
-            </div>
-            <div class="col-4">
-              <h5 class="tag">TEMPERATURE</h5>
-              <div class="d-flex flex-column align-items-center">
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-                <div class="d-flex">
-                  <p class="mx-1">H:17°</p>
-                  <p class="mx-1">L:11°</p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <section class="ajax-section">
+        <div class="container">
+          <ul class="cities"></ul>
         </div>
       </section>
-      <footer class="foot bg-dark">
-        <div class="container">
-          <h3>The Sun is out and about</h3>
-        </div>
-        
-      </footer>
+      
     
     
 
