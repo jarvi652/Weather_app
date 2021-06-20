@@ -1,9 +1,10 @@
 
-const form = document.querySelector('.forms')
+const form = document.querySelector('.form')
 const list = document.querySelector('.cities')
 const msg =document.querySelector('.msg')
 const input =  document.querySelector('input')
-const key = '2236d5bc0156e0cb50546f3210734d65a'
+const key = '4c85cc592368ceb5014914576591e4ad'
+
 form.addEventListener('submit', e =>{
     e.preventDefault()
     let inputVal = input.value
