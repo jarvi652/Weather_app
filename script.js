@@ -2,7 +2,7 @@
 const form = document.querySelector('.form')
 const list = document.querySelector('.cities')
 const msg =document.querySelector('.msg')
-const input =  document.querySelector('input')
+const input =  document.querySelector('.inform')
 const key = '4c85cc592368ceb5014914576591e4ad'
 
 form.addEventListener('submit', e =>{
