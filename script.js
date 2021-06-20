@@ -3,7 +3,7 @@ const form = document.querySelector('.forms')
 const list = document.querySelector('.cities')
 const msg =document.querySelector('.msg')
 const input =  document.querySelector('input')
-const key =config.SECRET_API_KEY
+const key = '2236d5bc0156e0cb50546f3210734d65a'
 form.addEventListener('submit', e =>{
     e.preventDefault()
     let inputVal = input.value
