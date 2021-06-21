@@ -1,5 +1,5 @@
 
-const form = document.querySelector('.form')
+const form = document.querySelector('.forms')
 const list = document.querySelector('.cities')
 const msg =document.querySelector('.msg')
 const input =  document.querySelector('.inform')
