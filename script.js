@@ -3,7 +3,7 @@ const form = document.querySelector('.forms')
 const list = document.querySelector('.cities')
 const msg =document.querySelector('.msg')
 const input =  document.querySelector('.inform')
-const key = '4c85cc592368ceb5014914576591e4ad'
+const key = config.API_KEY
 
 form.addEventListener('submit', e =>{
     e.preventDefault()
